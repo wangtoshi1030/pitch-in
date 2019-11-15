@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+ol{
+    display: none;
+}
+
+h2{
+    font-style: italic;
+    font-family: serif;
+}
+
+h2:hover{
+    color: red;
+}
