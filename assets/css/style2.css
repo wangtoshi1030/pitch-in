@@ -130,3 +130,18 @@ footer p {
     font-weight: bold;
     margin-top: 20px;
 }
+
+/* ボタンのサイズを変更 */
+.btn-wrapper {
+    text-align: center;
+  }
+
+  /* .col-2 p {
+      align-items: center;
+  } */
+
+  .schroll {
+      font-weight: bold;
+      font-style: italic;
+      font-family: serif;
+  }
