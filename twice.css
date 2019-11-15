@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+}
+
+hr{
+    background-color: aqua;
+    height: 30px;
+}
+
+
+
+.tt{
+    font-size: 35px;
+}
+
+
+.yy{
+    text-align: center;
+}
