@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 
+.top{
+    height: 50px;
+}
+
+
+
 ol{
     display: none;
 }
@@ -13,3 +19,4 @@ h2{
 h2:hover{
     color: red;
 }
+

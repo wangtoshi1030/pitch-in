@@ -8,7 +8,7 @@ $(function(){
         console.log("クリックした");
         $(".btn")
         .siblings("ol")
-        .slideToggle(aaa);
+        .slideToggle();
     });
 })
 
