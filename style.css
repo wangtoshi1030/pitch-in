@@ -14,9 +14,20 @@ ol{
 h2{
     font-style: italic;
     font-family: serif;
+    text-align: center;
 }
 
 h2:hover{
     color: red;
 }
 
+h4 {
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+}
+
+.vv {
+    font-size: 35px;
+    text-align: center;
+}
