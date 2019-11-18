@@ -20,3 +20,17 @@ hr{
     text-align: center;
     font-style: italic;
 }
+
+.uu{
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.yes{
+    display: none;
+}
+
+
+
+
