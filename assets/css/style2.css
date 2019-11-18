@@ -7,8 +7,35 @@
     text-align: center;
 }
 
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+    font-family: serif;
+}
+
+a:visited {
+    color: white;
+}
+
 main {
     margin-top: 50px;
+}
+
+@keyframes darpa {
+    0% {
+      clip-path: circle(0 at 50% 50%);
+      -webkit-clip-path: circle(0 at 50% 50%);
+    }
+    100% {
+      clip-path: circle(100% at 50% 50%);
+      -webkit-clip-path: circle(100% at 50% 50%);
+    }
 }
 
 section {
@@ -27,6 +54,10 @@ section {
 .section-under {
     display: flex;
     align-items: center;
+}
+
+.section-under img {
+    animation: darpa 5s cubic-bezier(.4, 0, .2, 1) infinite;
 }
 
 .section-under p {
@@ -57,6 +88,10 @@ article {
     align-items: center;
 }
 
+.article-under img {
+    animation: darpa 5s cubic-bezier(.4, 0, .2, 1) infinite;
+}
+
 .article-under p {
     font-size: 20px;
 }
@@ -83,6 +118,10 @@ aside {
 .aside-under {
     display: flex;
     align-items: center;
+}
+
+.aside-under img {
+    animation: darpa 5s cubic-bezier(.4, 0, .2, 1) infinite;
 }
 
 .aside-under p {
@@ -113,6 +152,10 @@ aside {
     align-items: center;
 }
 
+.last-under img {
+    animation: darpa 5s cubic-bezier(.4, 0, .2, 1) infinite;
+}
+
 .last-under p {
     font-size: 20px;
 }
@@ -140,8 +183,12 @@ footer p {
       align-items: center;
   } */
 
-  .schroll {
+.schroll {
       font-weight: bold;
       font-style: italic;
       font-family: serif;
-  }
+}
+
+.bottom {
+    text-align: center;
+}
